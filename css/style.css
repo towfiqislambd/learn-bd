@@ -1,0 +1,112 @@
+nav{
+    background: rgba(0,0,0,0.4)
+}
+nav .nav-link{
+    color: #fff !important;
+    font-weight: normal !important
+}
+nav .nav-link:hover{
+    background: #2980b9;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+header{
+    background: url(../image/b4.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+}
+header #home{
+    min-height: 700px;
+    width: 100%;
+}
+#home span{
+    background: #0b5ed7a1;
+}
+#uses{
+    background: #efdeca
+}
+#uses .card{
+    border: 1px solid #bb0aac;
+    background:#efdeca !important
+}
+#uses .card i,
+#aboutSec .box i{
+    background:#bb0aac;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 10px
+}
+#uses .card:hover{
+    -webkit-transform: scaleY(1.1);
+        -ms-transform: scaleY(1.1);
+            transform: scaleY(1.1);
+    -webkit-box-shadow: 4px 4px 10px #333;
+            box-shadow: 4px 4px 10px #333;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+.pSec h3{
+    position: relative;
+    font-weight: bold;
+}
+.pSec  h3::after{
+    content: "";
+    position: absolute;
+    border-bottom: 7px dotted #000;
+    width: 80px;
+    bottom: -20px;
+    left: 0px;
+    right: 0px;
+    margin: auto
+}
+.qSec h3{
+    position: relative;
+    font-weight: bold;
+    color: #fff !important
+}
+.qSec  h3::after{
+    content: "";
+    position: absolute;
+    border-bottom: 7px dotted #fff;
+    width: 80px;
+    bottom: -20px;
+    left: 0px;
+    right: 0px;
+    margin: auto
+}
+#aboutSec{
+    background: rgba(255, 190, 118,0.6);
+}
+#turorial img{
+    height: 260px !important;
+    width: 100% !important;
+}
+#turorial .overflow-hidden:hover img{
+    -webkit-transform: scale(1.1)!important;
+        -ms-transform: scale(1.1)!important;
+            transform: scale(1.1)!important;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s
+}
+#feedback{
+    background:#5eaaa8;
+}
+#input{
+    background:#0abde3;
+}
+footer{
+    background:#056676
+}
+@media screen and (max-width:576px){
+    #feedback .carousel-item img{
+        width: 250px !important;
+        height: 250px !important
+    }
+}
